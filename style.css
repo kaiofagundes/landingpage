@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 120%;
+    background: linear-gradient(68.15deg, #fffdfd 87.61%, #cacaca 100.62%);
+
+}
+
+.inicio{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ padding: 24px;
+background-color: #1e283b;
+}
+
+.inicio-img{
+    height: 80px;
+
+}
+
+.inicio-menu {
+display:flex;
+gap: 30px;
+}
+
+.inicio-menu-item {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+  font-weight:350;
+  font-size: 20px;
+
+}
+
+.corpo {
+    margin-bottom: 48px;
+    border-top: 10px solid #f5a30a;
+
+}
+
+.negrito{
+    color:#f5a30a;
+    border-color: #000000;
+}
+.corpo-principal {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.corpo-principal-digitado {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.corpo-principal-titulo {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #f5a30a;
+
+}
+
+.corpo-principal-subtitulo {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+
+}
+
+.corpo-botao {
+    background-color: #e0e0e0;
+    width: 180px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #f5a30a;
+}
+
+.corpo-botao:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.corpo-principal-imagem {
+    height: 400px;
+
+}
+
+.item-secundario-corpo {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 48px;
+    border-top: 0.4px solid #000000;
+    padding-top: 48px;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 15px;
+
+}
+
+.paragrafo-corpo {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+}
+
+.rodape {
+    padding: 35px;
+    border-top: 0.4px solid #4a534f;
+}
+
+.rodape-img{
+    height: 50px;
+    display: block; 
+    margin: 0 auto;
+ align-items: center;
+}
+
+
+
